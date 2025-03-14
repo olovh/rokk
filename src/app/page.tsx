@@ -113,16 +113,16 @@ export default function Home() {
             {/* Card 3: Energy Monitoring */}
             <div className="flex h-[21rem] w-[21rem] flex-col items-start justify-between gap-y-2.5 overflow-hidden rounded-[20px] bg-white p-6 shadow-lg">
               <div className="flex h-full flex-col items-start justify-between gap-y-3">
-                <h2 className="text-2xl font-bold">Energiövervakning</h2>
+                <h2 className="text-2xl font-bold">Vad vi erbjuder</h2>
                 <div>
                   <p className="flex flex-col gap-y-0.5 text-base font-bold">
                     <span className="font-mono text-sm text-neutral-500/50">Tjänst</span>
-                    Realtidsanalys
+                    Problemlösning
                   </p>
                 </div>
                 <div>
                   <p className="text-sm font-semibold leading-5">
-                    Kontinuerlig övervakning av energianvändning med detaljerade rapporter och aviseringar. Våra system ger dig fullständig insyn i din energiförbrukning dygnet runt.
+                    Vi hjälper dig att identifiera problemet i din elanläggning och kan sedan ge dig ett förslag på lämplig åtgärd för att lösa problemet med elkvalitet i din elanläggning.
                   </p>
                 </div>
               </div>
