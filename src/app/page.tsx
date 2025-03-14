@@ -41,11 +41,11 @@ export default function Home() {
           {/* Features list */}
           <div className="flex flex-col items-center justify-center gap-x-2 gap-y-1.5 pl-0 text-base font-normal text-white md:text-base lg:items-start">
             <div className="flex items-center gap-x-1.5">
-              <span>Utred transienter och resonanser</span>
+              <span>Utred övertone & transienter</span>
             </div>
             <div className="flex items-center gap-x-1.5">
               <span className="relative">
-                Stabilare elkvalitet
+                Stabil elkvalitet
                 <Image
                   src="/underline.svg"
                   alt=""
@@ -56,7 +56,7 @@ export default function Home() {
               </span>
             </div>
             <div className="flex items-center gap-x-1.5">
-              <span>Spara pengar</span>
+              <span>Lönsam uppgradering</span>
             </div>
           </div>
         </div>
