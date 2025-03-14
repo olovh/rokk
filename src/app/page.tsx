@@ -41,7 +41,7 @@ export default function Home() {
           {/* Features list */}
           <div className="flex flex-col items-center justify-center gap-x-2 gap-y-1.5 pl-0 text-base font-normal text-white md:text-base lg:items-start">
             <div className="flex items-center gap-x-1.5">
-              <span>Utred övertone & transienter</span>
+              <span>Identifiera Övertoner & Transienter</span>
             </div>
             <div className="flex items-center gap-x-1.5">
               <span className="relative">
