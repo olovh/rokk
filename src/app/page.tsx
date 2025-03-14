@@ -47,7 +47,7 @@ export default function Home() {
               <span className="relative">
                 Stabilare elkvalitet
                 <Image
-                  src="/icons/underline.svg"
+                  src="/underline.svg"
                   alt=""
                   width={206}
                   height={9}
