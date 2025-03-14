@@ -49,14 +49,18 @@ export default function Home() {
                 </span>
             </div>
             <div className="flex items-center gap-x-1.5">
-              <span>En god investering</span>
-               <Image
+    <span className="relative">
+      En god investering
+      <Image
         src="/underline.svg"
         alt="underline"
         width={206}
         height={9}
         className="absolute left-0 -bottom-1 h-2 w-full"
       />
+    </span>
+  </div>
+</div>
             </div>
           </div>
         </div>
