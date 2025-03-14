@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Recoleta';
-  src: url('/fonts/recoleta-bold.woff2') format('woff2'),
-       url('/fonts/Recoleta-Bold.woff') format('woff');
+  font-family: 'Playfair Display';
+  src: url('/fonts/playfair-display.woff2') format('woff2'),
+       url('/fonts/playfair-display.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -66,17 +66,14 @@
     @apply bg-background text-foreground;
   }
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Recoleta', serif;
+    font-family: 'Playfair Display', serif;
     font-weight: bold;
   }
 }
 
 .font-recoleta {
-  font-family: 'Recoleta', serif !important;
+  font-family: 'Playfair Display', serif !important;
   font-weight: bold;
 }
 
-.bg-dots {
-  background-image: radial-gradient(rgba(0, 0, 0, 0.1) 1px, transparent 1px);
-  background-size: 20px 20px;
-}
+/* Bakgrundseffekten med prickar har tagits bort */
