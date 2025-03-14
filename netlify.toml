@@ -1,9 +1,9 @@
 [build]
-  command = "npm run build"  # Ändra vid behov om du använder Bun eller Yarn
-  publish = ".next"  # Ändra till "out" om du använder `next export`
+  command = "npm run build"  # Bygger projektet med npm
+  publish = "build"  # Uppdaterat till "build" eftersom Next.js sparar där i produktion
 
 [build.environment]
-  NEXT_RUNTIME = "edge"  # Lägg till för bättre Next.js-support i Netlify
+  NEXT_RUNTIME = "edge"  # För bättre Next.js-support i Netlify
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
