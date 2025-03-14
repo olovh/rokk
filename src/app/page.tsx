@@ -4,13 +4,6 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <section className="waitlist__page relative bg-[#E83226] min-h-screen overflow-hidden flex flex-col justify-center items-center">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-15">
-        <div className="absolute w-full h-full" style={{
-          backgroundImage: 'radial-gradient(circle, #ffffff 1px, transparent 1px), radial-gradient(circle, #ffffff 1px, transparent 1px)',
-          backgroundSize: '40px 40px',
-          backgroundPosition: '0 0, 20px 20px'
-        }}></div>
       </div>
 
       {/* ROKK Logo */}
