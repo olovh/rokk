@@ -21,11 +21,21 @@ export default function Home() {
         {/* Left Side */}
         <div className="left-side mx-0 flex flex-col items-center justify-start gap-y-14 md:gap-y-10 lg:items-start">
           <div className="flex flex-col items-center justify-start gap-y-5 lg:items-start lg:gap-y-2">
-            <h1 className="animate-fadeInUp animation-delay-100 relative flex max-w-lg items-center gap-x-5 text-balance text-4xl font-bold leading-[1.05] text-white/70 transition-all duration-100 ease-linear sm:text-[50px] md:text-[70px] xl:max-w-full xl:text-[80px]">Ta</h1>
-            <h1 className="animate-fadeInUp animation-delay-200 group relative flex max-w-lg items-center gap-x-5 text-balance text-4xl font-bold leading-[1.05] text-white sm:text-[50px] md:text-[70px] xl:max-w-full xl:text-[80px]">Kontroll</h1>
-            <h1 className="animate-fadeInUp animation-delay-300 group relative flex max-w-lg items-center gap-x-5 text-balance text-4xl font-bold leading-[1.05] text-white sm:text-[50px] md:text-[70px] xl:max-w-full xl:text-[80px]">Över</h1>
-            <h1 className="animate-fadeInUp animation-delay-400 group relative flex max-w-lg items-center gap-x-5 text-balance text-4xl font-bold leading-[1.05] text-white sm:text-[50px] md:text-[70px] xl:max-w-full xl:text-[80px]">Din</h1>
-            <h1 className="animate-fadeInUp animation-delay-500 group relative flex max-w-lg items-center gap-x-5 text-balance text-4xl font-bold leading-[1.05] text-white sm:text-[50px] md:text-[70px] xl:max-w-full xl:text-[80px]">Elkvalitet</h1>
+            <h1 className="animate-fadeInUp animation-delay-100 relative flex max-w-lg items-center gap-x-5 text-balance text-4xl font-bold leading-[1.05] text-white/70 transition-all duration-100 ease-linear sm:text-[50px] md:text-[70px] xl:max-w-full xl:text-[80px]">
+              Ta
+            </h1>
+            <h1 className="animate-fadeInUp animation-delay-200 group relative flex max-w-lg items-center gap-x-5 text-balance text-4xl font-bold leading-[1.05] text-white sm:text-[50px] md:text-[70px] xl:max-w-full xl:text-[80px]">
+              Kontroll
+            </h1>
+            <h1 className="animate-fadeInUp animation-delay-300 group relative flex max-w-lg items-center gap-x-5 text-balance text-4xl font-bold leading-[1.05] text-white sm:text-[50px] md:text-[70px] xl:max-w-full xl:text-[80px]">
+              Över
+            </h1>
+            <h1 className="animate-fadeInUp animation-delay-400 group relative flex max-w-lg items-center gap-x-5 text-balance text-4xl font-bold leading-[1.05] text-white sm:text-[50px] md:text-[70px] xl:max-w-full xl:text-[80px]">
+              Din
+            </h1>
+            <h1 className="animate-fadeInUp animation-delay-500 group relative flex max-w-lg items-center gap-x-5 text-balance text-4xl font-bold leading-[1.05] text-white sm:text-[50px] md:text-[70px] xl:max-w-full xl:text-[80px]">
+              Elkvalitet
+            </h1>
           </div>
 
           {/* Button */}
@@ -44,23 +54,19 @@ export default function Home() {
               <span>Identifiera övertoner & transienter</span>
             </div>
             <div className="flex items-center gap-x-1.5">
-              <span className="relative">
-                Kompletta lösningar för stabil elkvalitet
-                </span>
+              <span>Kompletta lösningar för stabil elkvalitet</span>
             </div>
             <div className="flex items-center gap-x-1.5">
-    <span className="relative">
-      En god investering
-      <Image
-        src="/underline.svg"
-        alt="underline"
-        width={206}
-        height={9}
-        className="absolute left-0 -bottom-1 h-2 w-full"
-      />
-    </span>
-  </div>
-</div>
+              <span className="relative inline-block">
+                En god investering
+                <Image
+                  src="/underline.svg" // Kontrollera denna sökväg!
+                  alt=""
+                  width={206}
+                  height={9}
+                  className="absolute left-0 -bottom-2 h-4 w-full max-w-[200px] md:max-w-[250px]"
+                />
+              </span>
             </div>
           </div>
         </div>
