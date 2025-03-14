@@ -30,12 +30,12 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="preload" href="/fonts/recoleta-bold.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="/fonts/playfair-display.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
         <style>
           {`
             @font-face {
-              font-family: 'Recoleta';
-              src: url('/fonts/recoleta-bold.woff2') format('woff2');
+              font-family: 'Playfair Display';
+              src: url('/fonts/playfair-display.woff2') format('woff2');
               font-weight: bold;
               font-style: normal;
               font-display: swap;
