@@ -21,11 +21,11 @@ export default function Home() {
         {/* Left Side */}
         <div className="left-side mx-0 flex flex-col items-center justify-start gap-y-14 md:gap-y-10 lg:items-start">
           <div className="flex flex-col items-center justify-start gap-y-5 lg:items-start lg:gap-y-2">
-            <h1 className="animate-fadeInUp animation-delay-100 relative flex max-w-lg items-center gap-x-5 text-balance font-recoleta text-4xl font-bold leading-[1.05] text-white/70 transition-all duration-100 ease-linear sm:text-[50px] md:text-[70px] xl:max-w-full xl:text-[80px]">Ta</h1>
-            <h1 className="animate-fadeInUp animation-delay-200 group relative flex max-w-lg items-center gap-x-5 text-balance font-recoleta text-4xl font-bold leading-[1.05] text-white sm:text-[50px] md:text-[70px] xl:max-w-full xl:text-[80px]">Kontroll</h1>
-            <h1 className="animate-fadeInUp animation-delay-300 group relative flex max-w-lg items-center gap-x-5 text-balance font-recoleta text-4xl font-bold leading-[1.05] text-white sm:text-[50px] md:text-[70px] xl:max-w-full xl:text-[80px]">Över</h1>
-            <h1 className="animate-fadeInUp animation-delay-400 group relative flex max-w-lg items-center gap-x-5 text-balance font-recoleta text-4xl font-bold leading-[1.05] text-white sm:text-[50px] md:text-[70px] xl:max-w-full xl:text-[80px]">Din</h1>
-            <h1 className="animate-fadeInUp animation-delay-500 group relative flex max-w-lg items-center gap-x-5 text-balance font-recoleta text-4xl font-bold leading-[1.05] text-white sm:text-[50px] md:text-[70px] xl:max-w-full xl:text-[80px]">Elkvalitet</h1>
+            <h1 className="animate-fadeInUp animation-delay-100 relative flex max-w-lg items-center gap-x-5 text-balance text-4xl font-bold leading-[1.05] text-white/70 transition-all duration-100 ease-linear sm:text-[50px] md:text-[70px] xl:max-w-full xl:text-[80px]">Ta</h1>
+            <h1 className="animate-fadeInUp animation-delay-200 group relative flex max-w-lg items-center gap-x-5 text-balance text-4xl font-bold leading-[1.05] text-white sm:text-[50px] md:text-[70px] xl:max-w-full xl:text-[80px]">Kontroll</h1>
+            <h1 className="animate-fadeInUp animation-delay-300 group relative flex max-w-lg items-center gap-x-5 text-balance text-4xl font-bold leading-[1.05] text-white sm:text-[50px] md:text-[70px] xl:max-w-full xl:text-[80px]">Över</h1>
+            <h1 className="animate-fadeInUp animation-delay-400 group relative flex max-w-lg items-center gap-x-5 text-balance text-4xl font-bold leading-[1.05] text-white sm:text-[50px] md:text-[70px] xl:max-w-full xl:text-[80px]">Din</h1>
+            <h1 className="animate-fadeInUp animation-delay-500 group relative flex max-w-lg items-center gap-x-5 text-balance text-4xl font-bold leading-[1.05] text-white sm:text-[50px] md:text-[70px] xl:max-w-full xl:text-[80px]">Elkvalitet</h1>
           </div>
 
           {/* Button */}
@@ -67,7 +67,7 @@ export default function Home() {
             {/* Card 1: Electricity Quality Analysis */}
             <div className="flex h-[21rem] w-[21rem] flex-col items-start justify-between gap-y-2.5 overflow-hidden rounded-[20px] bg-white p-6 shadow-lg">
               <div className="flex h-full flex-col items-start justify-between gap-y-3">
-                <h2 className="font-recoleta text-2xl font-bold">Elkvalitetsanalys</h2>
+                <h2 className="text-2xl font-bold">Elkvalitetsanalys</h2>
                 <div>
                   <p className="flex flex-col gap-y-0.5 text-base font-bold">
                     <span className="font-mono text-sm text-neutral-500/50">Tjänst</span>
@@ -85,7 +85,7 @@ export default function Home() {
             {/* Card 2: Voltage Stabilization */}
             <div className="flex h-[21rem] w-[21rem] flex-col items-start justify-between gap-y-2.5 overflow-hidden rounded-[20px] bg-white p-6 shadow-lg">
               <div className="flex h-full flex-col items-start justify-between gap-y-3">
-                <h2 className="font-recoleta text-2xl font-bold">Spänningsstabilisering</h2>
+                <h2 className="text-2xl font-bold">Spänningsstabilisering</h2>
                 <div>
                   <p className="flex flex-col gap-y-0.5 text-base font-bold">
                     <span className="font-mono text-sm text-neutral-500/50">Tjänst</span>
@@ -103,7 +103,7 @@ export default function Home() {
             {/* Card 3: Energy Monitoring */}
             <div className="flex h-[21rem] w-[21rem] flex-col items-start justify-between gap-y-2.5 overflow-hidden rounded-[20px] bg-white p-6 shadow-lg">
               <div className="flex h-full flex-col items-start justify-between gap-y-3">
-                <h2 className="font-recoleta text-2xl font-bold">Energiövervakning</h2>
+                <h2 className="text-2xl font-bold">Energiövervakning</h2>
                 <div>
                   <p className="flex flex-col gap-y-0.5 text-base font-bold">
                     <span className="font-mono text-sm text-neutral-500/50">Tjänst</span>
@@ -121,7 +121,7 @@ export default function Home() {
             {/* Card 4: Power Factor Correction */}
             <div className="flex h-[21rem] w-[21rem] flex-col items-start justify-between gap-y-2.5 overflow-hidden rounded-[20px] bg-white p-6 shadow-lg">
               <div className="flex h-full flex-col items-start justify-between gap-y-3">
-                <h2 className="font-recoleta text-2xl font-bold">Effektfaktorkorrigering</h2>
+                <h2 className="text-2xl font-bold">Effektfaktorkorrigering</h2>
                 <div>
                   <p className="flex flex-col gap-y-0.5 text-base font-bold">
                     <span className="font-mono text-sm text-neutral-500/50">Tjänst</span>
