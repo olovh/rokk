@@ -45,7 +45,7 @@ export default function Home() {
             </div>
             <div className="flex items-center gap-x-1.5">
               <span className="relative">
-                Stabil elkvalitet
+                Lösningar för Stabil Elkvalitet
                 <Image
                   src="/underline.svg"
                   alt=""
@@ -56,7 +56,7 @@ export default function Home() {
               </span>
             </div>
             <div className="flex items-center gap-x-1.5">
-              <span>Lönsam uppgradering</span>
+              <span>Investering Som Ger Avkastning</span>
             </div>
           </div>
         </div>
