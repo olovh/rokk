@@ -4,8 +4,6 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <section className="waitlist__page relative bg-[#E83226] min-h-screen overflow-hidden flex flex-col justify-center items-center">
-      </div>
-
       {/* ROKK Logo */}
       <div className="absolute top-8 right-8 z-10">
         <Link href="https://www.rokkelectro.se" target="_blank" className="block transform hover:scale-105 transition-transform duration-200">
