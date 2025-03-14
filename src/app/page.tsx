@@ -85,7 +85,7 @@ export default function Home() {
             {/* Card 2: Voltage Stabilization */}
             <div className="flex h-[21rem] w-[21rem] flex-col items-start justify-between gap-y-2.5 overflow-hidden rounded-[20px] bg-white p-6 shadow-lg">
               <div className="flex h-full flex-col items-start justify-between gap-y-3">
-                <h2 className="text-2xl font-bold">Spänningsstabilisering</h2>
+                <h2 className="text-2xl font-bold">Övertonsmätningar</h2>
                 <div>
                   <p className="flex flex-col gap-y-0.5 text-base font-bold">
                     <span className="font-mono text-sm text-neutral-500/50">Tjänst</span>
@@ -94,7 +94,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="text-sm font-semibold leading-5">
-                    Skydda känslig utrustning från spänningsvariationer och förbättra driftsäkerheten. Vi installerar lösningar som säkerställer en stabil strömförsörjning.
+                    Övertoner kan orsaka allvarliga problem i ditt elnät såsom överbelastning och varmgång i transformatorer, kablar och motorer, obefogade skyddsutlösningar samt felfunktion i styr- och kontrollkretsar.
                   </p>
                 </div>
               </div>
