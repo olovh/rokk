@@ -51,20 +51,20 @@ export default function Home() {
           {/* Features list */}
           <div className="flex flex-col items-center justify-center gap-x-2 gap-y-1.5 pl-0 text-base font-normal text-white md:text-base lg:items-start">
             <div className="flex items-center gap-x-1.5">
-              <span>✔Identifiera övertoner & transienter</span>
+              <span>✔ Identifiera övertoner & transienter</span>
             </div>
             <div className="flex items-center gap-x-1.5">
-              <span>✔Kompletta lösningar för stabil elkvalitet</span>
+              <span>✔ Kompletta lösningar för stabil elkvalitet</span>
             </div>
             <div className="flex items-center gap-x-1.5">
               <span className="relative inline-block">
-                ✔En god investering
+                ✔ En god investering
                 <Image
                   src="/underline.svg" // Kontrollera denna sökväg!
                   alt=""
                   width={206}
                   height={9}
-                  className="absolute left-0 -bottom-2 h-4 w-full max-w-[200px] md:max-w-[250px]"
+                  className="absolute left-3 -bottom-2 h-4 w-full max-w-[200px] md:max-w-[250px]"
                 />
               </span>
             </div>
