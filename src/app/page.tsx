@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Head from 'next/head';
+import Script from 'next/script';
 
 export default function Home() {
   return (
@@ -24,6 +25,20 @@ export default function Home() {
           }}
         />
       </Head>
+      
+      {/* Google Analytics */}
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-4RQQQ2M1V2"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-4RQQQ2M1V2');
+        `}
+      </Script>
       {/* ROKK Logo */}
       <div className="absolute top-8 right-8 z-10">
         <Link href="https://www.rokkelectro.se" target="_blank" className="block transform hover:scale-105 transition-transform duration-200">
@@ -52,7 +67,7 @@ export default function Home() {
           {/* CTA Button */}
           <div className="mb-12 w-full flex justify-center lg:justify-start">
             <a
-              href="mailto:po@rokkelectro.se"
+              href="mailto:info@rokkelectro.se"
               className="py-4 px-8 rounded-full bg-white text-[#E83226] font-bold shadow-md hover:bg-gray-100 transition-colors duration-200 inline-flex items-center"
             >
               <span className="mr-2">⚡</span> Elkvalitet som spökar? Kontakta oss!
