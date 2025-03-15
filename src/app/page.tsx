@@ -140,7 +140,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="text-sm font-semibold leading-5">
-                    Minska strömförbrukning och elkostnader genom optimerad effektfaktor i dina system. Våra lösningar kan minska dina elkostnader med upp till 20% genom bättre effektfaktor.
+                    Minska strömförbrukning och elkostnader betydligt genom optimerad effektfaktor och hantering av reaktiv effekt i dina system. Våra lösningar sänker dina elkostnader effektivt, maximerar besparingar med en liten investering – få en offert nu!
                   </p>
                 </div>
               </div>
