@@ -108,7 +108,7 @@ export default function Home() {
               <h2 className="text-2xl font-bold mb-4">Elkvalitetsanalys</h2>
               <div className="mb-2">
                 <p className="text-sm text-neutral-500">Tjänst</p>
-                <p className="font-bold">Energioptimering</p>
+                <p className="font-bold">Energieffektivisering</p>
               </div>
               <p className="font-semibold text-base mt-auto">
                 Professionell analys för att identifiera problem som påverkar din energiförbrukning. Våra tekniker använder avancerad utrustning för att mäta och analysera din elkvalitet – optimera driftkostnader med hållbara lösningar!
@@ -120,7 +120,7 @@ export default function Home() {
               <h2 className="text-2xl font-bold mb-4">Övertonsmätningar</h2>
               <div className="mb-2">
                 <p className="text-sm text-neutral-500">Tjänst</p>
-                <p className="font-bold">Skydd av utrustning</p>
+                <p className="font-bold">Skydda din utrustning</p>
               </div>
               <p className="font-semibold text-base mt-auto">
                 Övertoner kan orsaka allvarliga problem i din elanläggning såsom överbelastning och varmgång i transformatorer, kablar och motorer, obefogade skyddsutlösningar samt felfunktion i styr- och kontrollkretsar – vi hjälper dig minimera driftstopp och optimera effektivitet!
@@ -132,7 +132,7 @@ export default function Home() {
               <h2 className="text-2xl font-bold mb-4">Vad vi erbjuder</h2>
               <div className="mb-2">
                 <p className="text-sm text-neutral-500">Tjänst</p>
-                <p className="font-bold">Problemlösning</p>
+                <p className="font-bold">Helhetslösningar för bättre elkvalitet</p>
               </div>
               <p className="font-semibold text-base mt-auto">
                 Vi identifierar brister i din elanläggning och levererar kostnadseffektiva lösningar för förbättrad elkvalitet, säkerställer hög tillgänglighet, reducerar driftstopp och boostar din produktivitet – kontakta oss nu för effektiv lösning!
