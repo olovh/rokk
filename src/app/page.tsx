@@ -86,7 +86,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="text-sm font-semibold leading-5">
-                    Professionell analys för att identifiera problem som påverkar din energiförbrukning. Våra tekniker använder avancerad utrustning för att mäta och analysera din elkvalitet.
+                    Professionell analys för att identifiera problem som påverkar din energiförbrukning. Våra tekniker använder avancerad utrustning för att mäta och analysera din elkvalitet – optimera driftkostnader med hållbara lösningar!
                   </p>
                 </div>
               </div>
