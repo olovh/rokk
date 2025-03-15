@@ -32,7 +32,7 @@ export default function Home() {
           {/* CTA Button */}
           <div className="mb-12 w-full flex justify-center lg:justify-start">
             <a
-              href="mailto:info@rokkelectro.se"
+              href="mailto:po@rokkelectro.se"
               className="py-4 px-8 rounded-full bg-white text-[#E83226] font-bold shadow-md hover:bg-gray-100 transition-colors duration-200 inline-flex items-center"
             >
               <span className="mr-2">⚡</span> Elkvalitet som spökar? Kontakta oss!
