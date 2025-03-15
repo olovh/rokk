@@ -64,7 +64,7 @@ export default function Home() {
                   alt=""
                   width={206}
                   height={9}
-                  className="absolute left-6 -bottom-2 h-4 w-full max-w-[200px] md:max-w-[250px]"
+                  className="absolute left-5 -bottom-2 h-4 w-full max-w-[200px] md:max-w-[250px]"
                 />
               </span>
             </div>
