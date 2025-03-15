@@ -40,7 +40,7 @@ export default function Home() {
           </div>
 
           {/* Feature List */}
-          <div className="feature-list text-white mb-20 lg:mb-0">
+          <div className="feature-list text-white mb-20 lg:mb-0 text-base">
             <div className="flex items-center mb-3">
               <span className="mr-2 text-white">✓</span>
               <span>Identifiera övertoner & transienter</span>
@@ -75,7 +75,7 @@ export default function Home() {
                 <p className="text-sm text-neutral-500">Tjänst</p>
                 <p className="font-bold">Energioptimering</p>
               </div>
-              <p className="text-sm mt-auto">
+              <p className="font-semibold text-base mt-auto">
                 Professionell analys för att identifiera problem som påverkar din energiförbrukning. Våra tekniker använder avancerad utrustning för att mäta och analysera din elkvalitet – optimera driftkostnader med hållbara lösningar!
               </p>
             </div>
@@ -87,7 +87,7 @@ export default function Home() {
                 <p className="text-sm text-neutral-500">Tjänst</p>
                 <p className="font-bold">Skydd av utrustning</p>
               </div>
-              <p className="text-sm mt-auto">
+              <p className="font-semibold text-base mt-auto">
                 Övertoner kan orsaka allvarliga problem i din elanläggning såsom överbelastning och varmgång i transformatorer, kablar och motorer, obefogade skyddsutlösningar samt felfunktion i styr- och kontrollkretsar – vi hjälper dig minimera driftstopp och optimera effektivitet!
               </p>
             </div>
@@ -99,7 +99,7 @@ export default function Home() {
                 <p className="text-sm text-neutral-500">Tjänst</p>
                 <p className="font-bold">Problemlösning</p>
               </div>
-              <p className="text-sm mt-auto">
+              <p className="font-semibold text-base mt-auto">
                 Vi identifierar brister i din elanläggning och levererar kostnadseffektiva lösningar för förbättrad elkvalitet, säkerställer hög tillgänglighet, reducerar driftstopp och boostar din produktivitet – kontakta oss nu för effektiv lösning!
               </p>
             </div>
@@ -111,7 +111,7 @@ export default function Home() {
                 <p className="text-sm text-neutral-500">Tjänst</p>
                 <p className="font-bold">Kostnadsreducering</p>
               </div>
-              <p className="text-sm mt-auto">
+              <p className="font-semibold text-base mt-auto">
                 Minska strömförbrukning och elkostnader betydligt genom optimerad effektfaktor och hantering av reaktiv effekt i dina system. Våra lösningar sänker dina elkostnader effektivt, maximerar besparingar med en liten investering – få en offert nu!
               </p>
             </div>
