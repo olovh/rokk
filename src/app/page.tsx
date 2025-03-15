@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <section className="waitlist__page relative bg-[#E83226] min-h-screen overflow-hidden flex flex-col justify-center items-center">
+    <section className="waitlist__page relative bg-[#E83226] min-h-screen overflow-x-hidden flex flex-col justify-start items-center">
       {/* ROKK Logo */}
       <div className="absolute top-8 right-8 z-10">
         <Link href="https://www.rokkelectro.se" target="_blank" className="block transform hover:scale-105 transition-transform duration-200">
@@ -17,9 +17,9 @@ export default function Home() {
         </Link>
       </div>
 
-      <main className="flex items-center justify-center overflow-hidden relative z-10 w-full max-w-[1600px]">
+      <main className="flex flex-col lg:flex-row items-center justify-center overflow-hidden relative z-10 w-full max-w-[1600px] pt-20 lg:pt-0">
         {/* Left Side */}
-        <div className="left-side mx-0 flex flex-col items-center justify-start gap-y-14 md:gap-y-10 lg:items-start">
+        <div className="left-side mx-4 lg:mx-0 flex flex-col items-center justify-start gap-y-14 md:gap-y-10 lg:items-start">
           <div className="flex flex-col items-center justify-start gap-y-5 lg:items-start lg:gap-y-2">
             <h1 className="animate-fadeInUp animation-delay-100 relative flex max-w-lg items-center gap-x-5 text-balance text-4xl font-bold leading-[1.05] text-white/70 transition-all duration-100 ease-linear sm:text-[50px] md:text-[70px] xl:max-w-full xl:text-[80px]">
               Ta
@@ -49,7 +49,7 @@ export default function Home() {
           </div>
 
           {/* Features list */}
-          <div className="flex flex-col items-center justify-center gap-x-2 gap-y-1.5 pl-0 text-base font-normal text-white md:text-base lg:items-start">
+          <div className="flex flex-col items-center justify-center gap-x-2 gap-y-1.5 pl-0 text-base font-normal text-white md:text-base lg:items-start mb-10 lg:mb-0">
             <div className="flex items-center gap-x-1.5">
               <span>&#x2714; Identifiera övertoner & transienter</span>
             </div>
@@ -72,10 +72,10 @@ export default function Home() {
         </div>
 
         {/* Right Side - Four Cards in Grid */}
-        <div className="right__side__deck relative mt-0 hidden lg:flex items-center justify-center font-sans ml-16">
-          <div className="grid grid-cols-2 gap-6">
+        <div className="right__side__deck relative mt-0 lg:ml-16 w-full px-4 lg:px-0 lg:w-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-20">
             {/* Card 1: Electricity Quality Analysis */}
-            <div className="flex h-[21rem] w-[21rem] flex-col items-start justify-between gap-y-2.5 overflow-hidden rounded-[20px] bg-white p-6 shadow-lg">
+            <div className="flex h-auto lg:h-[21rem] w-full lg:w-[21rem] flex-col items-start justify-between gap-y-2.5 overflow-hidden rounded-[20px] bg-white p-6 shadow-lg">
               <div className="flex h-full flex-col items-start justify-between gap-y-3">
                 <h2 className="text-2xl font-bold">Elkvalitetsanalys</h2>
                 <div>
@@ -93,7 +93,7 @@ export default function Home() {
             </div>
 
             {/* Card 2: Voltage Stabilization */}
-            <div className="flex h-[21rem] w-[21rem] flex-col items-start justify-between gap-y-2.5 overflow-hidden rounded-[20px] bg-white p-6 shadow-lg">
+            <div className="flex h-auto lg:h-[21rem] w-full lg:w-[21rem] flex-col items-start justify-between gap-y-2.5 overflow-hidden rounded-[20px] bg-white p-6 shadow-lg">
               <div className="flex h-full flex-col items-start justify-between gap-y-3">
                 <h2 className="text-2xl font-bold">Övertonsmätningar</h2>
                 <div>
@@ -111,7 +111,7 @@ export default function Home() {
             </div>
 
             {/* Card 3: Energy Monitoring */}
-            <div className="flex h-[21rem] w-[21rem] flex-col items-start justify-between gap-y-2.5 overflow-hidden rounded-[20px] bg-white p-6 shadow-lg">
+            <div className="flex h-auto lg:h-[21rem] w-full lg:w-[21rem] flex-col items-start justify-between gap-y-2.5 overflow-hidden rounded-[20px] bg-white p-6 shadow-lg">
               <div className="flex h-full flex-col items-start justify-between gap-y-3">
                 <h2 className="text-2xl font-bold">Vad vi erbjuder</h2>
                 <div>
@@ -129,7 +129,7 @@ export default function Home() {
             </div>
 
             {/* Card 4: Power Factor Correction */}
-            <div className="flex h-[21rem] w-[21rem] flex-col items-start justify-between gap-y-2.5 overflow-hidden rounded-[20px] bg-white p-6 shadow-lg">
+            <div className="flex h-auto lg:h-[21rem] w-full lg:w-[21rem] flex-col items-start justify-between gap-y-2.5 overflow-hidden rounded-[20px] bg-white p-6 shadow-lg">
               <div className="flex h-full flex-col items-start justify-between gap-y-3">
                 <h2 className="text-2xl font-bold">Effektfaktorkorrigering</h2>
                 <div>
@@ -150,7 +150,7 @@ export default function Home() {
       </main>
 
       {/* Footer with ROKK Copyright */}
-      <footer className="absolute bottom-4 w-full text-center">
+      <footer className="relative w-full text-center pb-4 mt-auto">
         <p className="text-white/70 text-sm">© {new Date().getFullYear()} ROKK Electro. Alla rättigheter förbehållna.</p>
       </footer>
     </section>
