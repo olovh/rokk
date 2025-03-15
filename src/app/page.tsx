@@ -1,9 +1,29 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function Home() {
   return (
     <section className="waitlist__page relative bg-[#E83226] min-h-screen overflow-x-hidden flex flex-col">
+      <Head>
+        <title>ROKK Electro - Ta Kontroll Över Din Elkvalitet</title>
+        <meta name="description" content="Expertlösningar för elkvalitet, övertonsmätningar och effektfaktorkorrigering. Optimera driftkostnader med hållbara lösningar." />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "name": "Elkvalitetsanalys",
+              "description": "Identifiera problem som påverkar energiförbrukning och minska driftkostnader med hållbara lösningar.",
+              "provider": {
+                "@type": "Organization",
+                "name": "ROKK"
+              }
+            })
+          }}
+        />
+      </Head>
       {/* ROKK Logo */}
       <div className="absolute top-8 right-8 z-10">
         <Link href="https://www.rokkelectro.se" target="_blank" className="block transform hover:scale-105 transition-transform duration-200">
