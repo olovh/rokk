@@ -104,7 +104,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="text-sm font-semibold leading-5">
-                    Övertoner kan orsaka allvarliga problem i ditt elnät såsom överbelastning och varmgång i transformatorer, kablar och motorer, obefogade skyddsutlösningar samt felfunktion i styr- och kontrollkretsar.
+                    Övertoner kan orsaka allvarliga problem i din elanläggning såsom överbelastning och varmgång i transformatorer, kablar och motorer, obefogade skyddsutlösningar samt felfunktion i styr- och kontrollkretsar – vi hjälper dig minimera driftstopp och optimera effektivitet!
                   </p>
                 </div>
               </div>
