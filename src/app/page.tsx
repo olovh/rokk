@@ -19,14 +19,14 @@ export default function Home() {
 
       <div className="container mx-auto px-4 md:px-8 flex flex-col lg:flex-row justify-between pt-32 lg:pt-0 lg:min-h-screen">
         {/* Left Side Column */}
-        <div className="left-column w-full lg:w-[45%] flex flex-col items-center lg:items-start lg:justify-center lg:min-h-screen">
+        <div className="left-column w-full lg:w-[35%] flex flex-col items-center lg:items-start lg:justify-center lg:min-h-screen">
           {/* Main Headline */}
           <div className="headline-container mb-16 text-center lg:text-left">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white/70 leading-tight">Ta</h1>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">Kontroll</h1>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">Över</h1>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">Din</h1>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">Elkvalitet</h1>
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white/70 leading-tight">Ta</h1>
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white leading-tight">Kontroll</h1>
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white leading-tight">Över</h1>
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white leading-tight">Din</h1>
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white leading-tight">Elkvalitet</h1>
           </div>
 
           {/* CTA Button */}
@@ -66,8 +66,8 @@ export default function Home() {
         </div>
 
         {/* Right Side - Cards Grid */}
-        <div className="right-column w-full lg:w-[55%] flex items-center justify-center pb-16 lg:pb-0">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-[900px]">
+        <div className="right-column w-full lg:w-[65%] flex items-center justify-center pb-16 lg:pb-0">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-[800px]">
             {/* Card 1 */}
             <div className="bg-white rounded-[20px] p-6 shadow-lg aspect-square flex flex-col">
               <h2 className="text-2xl font-bold mb-4">Elkvalitetsanalys</h2>
