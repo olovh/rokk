@@ -122,7 +122,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="text-sm font-semibold leading-5">
-                    Vi hjälper dig att identifiera problemet i din elanläggning och ger dig sedan ett förslag på lämplig åtgärd för att lösa problemet med elkvalitet i din elanläggning.
+                    Vi identifierar brister i din elanläggning och levererar kostnadseffektiva lösningar för förbättrad elkvalitet, säkerställer hög tillgänglighet, reducerar driftstopp och boostar din produktivitet – kontakta oss nu för effektiv lösning!
                   </p>
                 </div>
               </div>
