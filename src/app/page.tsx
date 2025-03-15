@@ -8,7 +8,7 @@ export default function Home() {
     <section className="waitlist__page relative bg-[#E83226] min-h-screen overflow-x-hidden flex flex-col">
       <Head>
         <title>ROKK Electro - Ta Kontroll Över Din Elkvalitet</title>
-        <meta name="description" content="Expertlösningar för elkvalitet, övertonsmätningar och effektfaktorkorrigering. Optimera driftkostnader med hållbara lösningar." />
+        <meta name="description" content="Optimera din elkvalitet med ROKK! Elkvalitetsanalys, övertonsmätningar och effektfaktorkorrigering för att sänka kostnader och minimera driftstopp. Kontakta oss idag!" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
